@@ -1,0 +1,142 @@
+
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* import variables from variables.css */
+@import url(./partials/variables.css);
+
+/* import global.css */
+@import url(./partials/_global.css);
+
+/* start navigation */
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 7rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 2rem 4rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--WorkSans);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* end navigation */
+
+/* Banner Area */
+.site-main .site-banner {
+    background: url() no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.site-main .site-banner .site-title h1{
+    padding-top: 30%;
+    padding-left: 24%;
+    font-weight: 500;
+    font-size: xx-large;
+}
+.site-main .site-banner .site-title h4{
+    padding-left: 1%;
+    font-weight: 500;
+    font-size: xx-large;
+}
+.site-main .site-banner .site-buttons{
+    padding-top: 2%;
+    padding-left: 9%;
+}
+
+.site-main .site-banner .site-buttons .button{
+    padding: .8rem 2.2rem;
+}
+
+/* End Banner Area */
+
+/* Start About Area */
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--WorkSans);
+    letter-spacing: 21px;
+
+
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+/* End About Area */
+
+/* Project Area */
+
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--WorkSans);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--WorkSans);
+}
+/* End Project Area */
+
+/* Footer Area */
+
+
+
+.footer-area .container .s .social .fa{
+    font-size: 40px;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: static;
+}
+
+
+  
+/* Add a hover effect */
+.footer-area .container .s .social .fa:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* End Footer Area */

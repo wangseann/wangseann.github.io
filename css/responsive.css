@@ -1,0 +1,68 @@
+
+
+
+/* if the viewport is equal to 340px or less */
+@media only screen and (max-width: 340px){
+    .header_area .main.menu .navbar, 
+    .header_area .main.menu .navbar .navbar-brand{
+        padding: 2%;
+        margin: 0%;
+    }
+    .site-main .site-banner .site-title h1{
+        font-size: 41px;
+    }
+
+}
+
+/* if viewport is equal to 792px or less*/
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .project-area .button-group button{
+        font: normal 500 18px/40px var(--WorkSans);
+    }
+
+    .site-main .about-area .about-title p{
+        padding: 0%;
+    }
+
+    .site-main .site-banner .site-title h1{
+        padding-top: 5%;
+        padding-left: 20%;
+        font-weight: 500;
+    }
+
+    .site-main .site-banner .site-title h4{
+        padding-left: 10%;
+        font-weight: 500;
+        font-size: 19px;
+    }
+
+    .site-main .site-banner .site-buttons .button{
+       padding: 4%;
+    }
+    
+    .site-main .site-banner .main-faceshot{
+        padding-top: 20px;
+    }
+}
+
+/* if viewport is equal to 792px or less*/
+@media only screen and (max-width: 1910px){
+    .header_area .main.menu .navbar{
+        padding: 1rem;
+    }
+    
+    .container{
+        max-width: 90%;
+    }
+
+    .site-main .about-area{
+        padding: 3% 4%;
+
+    }
+
+}
